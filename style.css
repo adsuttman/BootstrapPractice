@@ -1,0 +1,21 @@
+* {
+    font-family: monospace;
+}
+.navbar-nav {
+    width: 100%;
+    text-align: center;
+}
+.nav-link:hover,.nav-link:focus{
+    animation: forwards bloody 0.5s;
+}
+.active {
+    box-shadow: inset 0px 0px 25px red, 0px 0px 5px red;
+}
+
+@keyframes bloody{
+    0% {
+    }
+    100% {
+        box-shadow: inset 0px 0px 25px red;
+    }
+}
