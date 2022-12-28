@@ -11,6 +11,13 @@
 .active {
     box-shadow: inset 0px 0px 25px red, 0px 0px 5px red;
 }
+footer {
+    font-size: smaller;
+}
+
+.main {
+    min-height: 100vh;
+}
 
 @keyframes bloody{
     0% {
