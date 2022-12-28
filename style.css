@@ -8,7 +8,7 @@
 .nav-link:hover,.nav-link:focus{
     animation: forwards bloody 0.5s;
 }
-.active {
+.navbar .active {
     box-shadow: inset 0px 0px 25px red, 0px 0px 5px red;
 }
 footer {
@@ -17,6 +17,16 @@ footer {
 
 .main {
     min-height: 100vh;
+}
+.title {
+    text-decoration:underline red 2px;
+    text-underline-offset: 40px;
+}
+.carousel-inner {
+    min-height: 500px;
+}
+.carousel-inner .card-body {
+    min-height: 500px;
 }
 
 @keyframes bloody{
