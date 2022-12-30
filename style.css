@@ -6,10 +6,10 @@
     text-align: center;
 }
 .nav-link:hover,.nav-link:focus{
-    animation: forwards bloody 0.5s;
+    animation: forwards bluedy 0.5s;
 }
 .navbar .active {
-    box-shadow: inset 0px 0px 25px red, 0px 0px 5px red;
+    box-shadow: inset 0px 0px 25px #6ea8fe, 0px 0px 5px #6ea8fe;
 }
 footer {
     font-size: smaller;
@@ -19,20 +19,26 @@ footer {
     min-height: 100vh;
 }
 .title {
-    text-decoration:underline red 2px;
+    text-decoration:underline #6ea8fe 2px;
     text-underline-offset: 40px;
 }
 .carousel-inner {
-    min-height: 500px;
+    min-height: 200px;
 }
 .carousel-inner .card-body {
-    min-height: 500px;
+    min-height: 200px;
+}
+.carousel-indicators button{
+    background-color: white !important;
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    filter: invert(0) !important;
 }
 
-@keyframes bloody{
+@keyframes bluedy{
     0% {
     }
     100% {
-        box-shadow: inset 0px 0px 25px red;
+        box-shadow: inset 0px 0px 25px #6ea8fe;
     }
 }
